@@ -1,0 +1,27 @@
+{
+  "name": "module-10-challenge",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TooSparky/module-10-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TooSparky/module-10-challenge/issues"
+  },
+  "homepage": "https://github.com/TooSparky/module-10-challenge#readme",
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
+}
