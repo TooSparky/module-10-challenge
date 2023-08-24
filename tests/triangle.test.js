@@ -6,7 +6,7 @@ describe('Triangle', () => {
     describe('Triangle shape', () => {
         it('should throw an error if it is not a triangle shape', () => {
             const triangleTest = new Triangle();
-            const expectedAnswer = `triangle points="0, 0 10, 10 20, 0"`;
+            const expectedAnswer = `polygon points="150, 25 50, 150 250, 150"`;
 
             expect(triangleTest.render()).toEqual(expectedAnswer);
         });
